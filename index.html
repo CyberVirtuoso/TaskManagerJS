@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/index.js" defer></script>
+    <title>TaskManager</title>
+</head>
+<body>
+<div id="tasks">
+    <div class="tasks__wrapper">
+        <form class="create-task-block">
+            <input
+                    name="taskName"
+                    class="create-task-block__input default-text-input"
+                    type="text"
+                    placeholder="Создайте новую задачу"
+                    value="Посмотреть урок по JavaScript"
+            >
+            <button
+                    type="submit"
+                    class="create-task-block__button default-button"
+            >
+                Создать
+            </button>
+        </form>
+        <div class="tasks-list"></div>
+    </div>
+</div>
+
+</body>
+</html>
